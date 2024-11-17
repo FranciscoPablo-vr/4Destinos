@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/custom_btn"
+        android:backgroundTint="@null"
+    >
+
+    <TextView
+        android:id="@+id/dialogMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="463dp"
+        android:fontFamily="@font/im_fell_english"
+        android:gravity="center"
+        android:text="En este juego, se os presentará una situación específica. Vuestro objetivo es discutir y razonar entre vosotros, considerando las características de vuestros personajes.    El juego consiste en encontrar la mejor manera de resolver la situación, ya que solo podrán sobrevivir 4 personajes. ¡Elegid sabiamente, pues los demás serán abandonados! \n Modo de juego: un jugador establece la situación con el botón de Situación, y todos los jugadores usaran el botón de Personaje para que se les muestre el personajes a interpretar"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/dialogButton"
+        android:layout_width="77dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btnconfir"
+        android:backgroundTint="@null"
+        android:fontFamily="@font/im_fell_english"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#000000"
+        android:textStyle="bold" />
+</LinearLayout>
